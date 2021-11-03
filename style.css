@@ -260,14 +260,13 @@ main p {
 .copyright {
   margin-top: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .footer__terms {
   display: flex;
-  margin-bottom: 20px;
+  align-items: center;
 }
 .footer__terms u:not(:first-child) {
   margin-left: 22px;
