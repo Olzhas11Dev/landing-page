@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 95%;
+  height: 60px;
+  margin: 40px auto 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.left__header {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: #32302e;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.2s ease 0s;
+}
+
+a:hover {
+  color: #7e9493;
+}
+
+.nav__links li {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.active {
+  color: #57b2ae !important;
+}
+
+.btn__trial,
+.btn__login {
+  height: 35px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn__trial {
+  width: 140px;
+  background-color: #ff0c7d;
+}
+
+.btn__login {
+  width: 100px;
+  background-color: #57b2ae;
+  margin-left: 27px;
+}
+
+/* Main header */
+
+main {
+  margin-top: 115px;
+  text-align: center;
+  font-weight: 400;
+}
+
+main h1 {
+  font-size: 36px;
+}
+
+main p {
+  margin-top: 24px;
+  font-size: 24px;
+}
+
+.main__img {
+  margin-top: 114px;
+}
+
+/* Info */
+
+.info {
+  height: 379px;
+  margin-top: 100px;
+  background-color: #d9fdfb;
+}
+
+.info p {
+  padding-top: 90px;
+  text-align: center;
+  width: 340px;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Search section */
+
+.search {
+  margin: 87px auto 0;
+  width: 1071px;
+  height: 223px;
+  background-color: #e4ecf3;
+  margin-bottom: 400px;
+}
+
+.search .title {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 24px;
+}
+
+.input__block {
+  margin: 32px auto 0;
+  width: 541px;
+
+  display: flex;
+  align-items: center;
+}
+
+.input__block input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #8d8d8d;
+  padding-left: 20px;
+}
+
+.copy__link {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 90px;
+  font-size: 18px;
+  margin-left: -90px;
+  cursor: pointer;
+}
