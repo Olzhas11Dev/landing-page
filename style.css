@@ -153,6 +153,8 @@ main p {
 
 .copy__link {
   display: flex;
+  border: none;
+  background-color: white;
   align-items: center;
   height: 35px;
   width: 90px;
@@ -162,6 +164,7 @@ main p {
 }
 
 /* Card section */
+
 .card__block {
   width: 1070px;
   margin: auto;
@@ -257,13 +260,14 @@ main p {
 .copyright {
   margin-top: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .footer__terms {
   display: flex;
-  align-items: center;
+  margin-bottom: 20px;
 }
 .footer__terms u:not(:first-child) {
   margin-left: 22px;
@@ -286,4 +290,11 @@ main p {
 
 .footer__social a:hover {
   color: #18cac4;
+}
+
+.alarm {
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  color: #ff0c7d;
 }

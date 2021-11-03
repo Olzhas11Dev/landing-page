@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
@@ -51,13 +55,14 @@
         one month FREE.  </p>
     </section>
 
-     <!-- Seacrh section -->
+    <!-- Seacrh section -->
     <section class="search" >
         <p class="title" >Your unique referral code! </p>
         <div class="input__block">
-          <input type="text">
-          <p class="copy__link" >Copy Link</p>
+          <input class="input" type="text" spellcheck="false">
+          <button class="copy__link" >Copy Link</button>
         </div>
+        <div class="alarm"></div>
     </section>
 
     <!-- Card section -->
@@ -76,86 +81,97 @@
       </div>
     </section>
 
-     <!-- FAQ section -->
-     <section class="faq" >
-       <div class="content">
+    <!-- FAQ section -->
+    <section class="faq">
+      <div class="content">
         <h1>FAQ</h1>
-         <div class="content__item">
-            <p>How many friends can I invite?</p>
-            <div class="small__text">The sky’s the limit! Popular? go ahead and send out as many invites as you like! So long as your friends use YOUR unique link, you’ll get the treats. </div>
-         </div>
-         <div class="content__item">
-            <p>How does my friend get their one month free when they activate a paid plan?</p>
-            <div class="small__text">So long as they have used your link, we’ll know they are a referral and their account will be automatically creditred.  </div>
-         </div>
-         <div class="content__item">
-            <p>How does my friend get their one month free when they activate a paid plan?</p>
-            <div class="small__text">So long as they have used your link, we’ll know they are a referral and their account will be automatically creditred.  </div>
+        <div class="content__item">
+          <p>How many friends can I invite?</p>
+          <div class="small__text">
+            The sky’s the limit! Popular? go ahead and send out as many invites as you like! So long
+            as your friends use YOUR unique link, you’ll get the treats.
           </div>
         </div>
-     </section>
+        <div class="content__item">
+          <p>How does my friend get their one month free when they activate a paid plan?</p>
+          <div class="small__text">
+            So long as they have used your link, we’ll know they are a referral and their account
+            will be automatically creditred.
+          </div>
+        </div>
+        <div class="content__item">
+          <p>How does my friend get their one month free when they activate a paid plan?</p>
+          <div class="small__text">
+            So long as they have used your link, we’ll know they are a referral and their account
+            will be automatically creditred.
+          </div>
+        </div>
+      </div>
+    </section>
 
-     <!-- Footer -->
-     <footer class="footer__main" >
-       <div class="footer__row">
-         <div class="footer__item">
-           <h4>Company</h4>
-            <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
-         </div>
-         <div class="footer__item">
+    <!-- Footer -->
+    <footer class="footer__main">
+      <div class="footer__row">
+        <div class="footer__item">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
           <h4>Features</h4>
-           <ul>
-             <li><a href="#">Feature 1</a></li>
-             <li><a href="#">Feature 2</a></li>
-             <li><a href="#">Feature 3</a></li>
-             <li><a href="#">Feature 4</a></li>
-           </ul>
+          <ul>
+            <li><a href="#">Feature 1</a></li>
+            <li><a href="#">Feature 2</a></li>
+            <li><a href="#">Feature 3</a></li>
+            <li><a href="#">Feature 4</a></li>
+          </ul>
         </div>
         <div class="footer__item">
           <h4>Blog</h4>
-           <ul>
-             <li><a href="#">Relab</a></li>
-             <li><a href="#">Product</a></li>
-             <li><a href="#">Property Collective</a></li>
-             <li><a href="#">Customer Stories</a></li>
-           </ul>
+          <ul>
+            <li><a href="#">Relab</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Property Collective</a></li>
+            <li><a href="#">Customer Stories</a></li>
+          </ul>
         </div>
-       </div>
+      </div>
 
-       <!-- Footer copyright -->
+      <!-- Footer copyright -->
 
-       <div class="copyright">
-         <div class="footer__terms">
-           <u>Terms</u>
-           <u>Privacy</u>
-           <div class="footer__info" > © Property Portal Limited (Relab™) 2021. All rights reserved</div>
-         </div>
-         <div class="footer__social">
-          <a href="https://www.facebook.com/relabpropertynz"  target="blank">
-            <i class="fab fa-facebook fa-2x" ></i>
-          </a> 
-          <a href="https://www.instagram.com/relabproperty/"  target="blank">
-            <i class="fab fa-instagram fa-2x" ></i>
-          </a> 
-          <a href="https://www.linkedin.com/company/relab" target="blank">
-              <i class="fab fa-linkedin-in fa-2x" ></i>
-          </a> 
-          <a href="https://twitter.com/RelabProperty" target="blank">
-            <i class="fab fa-twitter fa-2x" ></i>
-          </a> 
-          <a href="https://www.youtube.com/channel/UC_--IhTtt9evwZPkpZ85bWw/featured" target="blank">
-            <i class="fab fa-youtube fa-2x" ></i>
+      <div class="copyright">
+        <div class="footer__terms">
+          <u>Terms</u>
+          <u>Privacy</u>
+          <div class="footer__info">
+            © Property Portal Limited (Relab™) 2021. All rights reserved
+          </div>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/relabpropertynz" target="blank">
+            <i class="fab fa-facebook fa-2x"></i>
           </a>
-         </div>
-       </div>
-     </footer>
+          <a href="https://www.instagram.com/relabproperty/" target="blank">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/relab" target="blank">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/RelabProperty" target="blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC_--IhTtt9evwZPkpZ85bWw/featured"
+            target="blank"
+          >
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-
-
-
